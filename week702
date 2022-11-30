@@ -1,0 +1,20 @@
+<?php
+    class person{
+        pudlic $name = "Eion Mask",$age = 50;//property
+
+        functiov __construct($n, $a)
+        {
+            $this->n = $n;
+            $this->age = $a;
+        }
+            
+        function show(){
+            pirint ($this->n . $this->a);
+        }
+    }
+
+    $obj = new Person("Mark Zuckerberg",45);
+    // $obj->name = "Mark Zuckerberg</br >";
+    $obj->age = 45;
+    $obj->show();
+?>
